@@ -1,0 +1,78 @@
+/* Requirement: Styles that specify font family */
+body {
+  /* Requirement: Custom background color (Dirt/Earth Brown) */
+  background-color: #5d4037;
+  font-family: "Courier New", Courier, monospace; /* Monospace looks like Minecraft text */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Requirement: Styles that specify font color */
+h1,
+h2,
+h3 {
+  color: #3e2723; /* Dark Brown text */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Requirement: Style definition for a class (The "Grass" block top) */
+.main-container {
+  background-color: #76c735; /* Minecraft Grass Green */
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto; /* Centers the div */
+  padding: 20px;
+  border-left: 10px solid #4a3025; /* 3D Block effect border */
+  border-right: 10px solid #4a3025;
+  border-bottom: 10px solid #4a3025;
+}
+
+/* Requirement: Style definition for Nav links */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffd700; /* Gold color on hover */
+}
+
+/* Requirement: Styling for content blocks */
+.content-block,
+.list-block {
+  background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white */
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #3e2723;
+  border-radius: 5px;
+}
+
+.feature-img {
+  max-width: 300px;
+  border: 5px solid #fff;
+  box-shadow: 5px 5px 0px #3e2723;
+}
+
+/* Styling the nested list to make it look cleaner */
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.jump-link {
+  color: #3e2723;
+  background-color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid #3e2723;
+}
